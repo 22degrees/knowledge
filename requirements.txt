@@ -1,0 +1,17 @@
+# --- Core & Framework ---
+fastmcp>=0.1.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+python-dotenv>=1.0.0
+
+# --- Scheduling & State ---
+APScheduler>=3.10.0
+
+# --- Unified Document Parser ---
+tika>=2.6.0            # Unterstützt MS Office, LibreOffice, OpenOffice & TXT auf einen Schlag
+#sudo apt install default-jre
+ezdxf>=1.1.0           # Bleibt für CAD-Zeichnungen (.dxf) separat
+
+# --- Optional / ChromaDB ---
+# chromadb>=0.4.0
+# openai>=1.0.0        # Falls du die Summaries über die OpenAI-API generierst
